@@ -25,6 +25,6 @@ React Component Github Actions CI workflow template.
 
 2、update build ci badge url in `README.md`.
 
-ref: [Update Badge](https://github.com/react-component/trigger/pull/213)
+  ref: [Update Badge](https://github.com/react-component/trigger/pull/213)
 
-3、Following [How to use?](#how-to-use) to set up github actions.
+3、Following [How to use](#how-to-use) to set up github actions.
