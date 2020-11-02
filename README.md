@@ -8,15 +8,15 @@
 
 2、Under your repository name, click Actions.
 
-![image](https://docs.github.com/assets/images/help/repository/actions-tab.png)
+![](./assets/image/actions-tab.png)
 
 3、If your repository already has existing workflows: In the upper-left corner, click New workflow.
 
-![image](https://docs.github.com/assets/images/help/repository/actions-new-workflow.png)
+![](./assets/image/actions-new-workflow.png)
 
 4、In section titled "Workflows created by React Component". Click **Set up this workflow**.
 
-![WX20201102-155809](https://user-images.githubusercontent.com/33770367/97843442-434bc780-1d24-11eb-867d-0a82a017c35b.png)
+![](./assets/image/react-component-ci.png)
 
 ## 💬 How to migrate from travis CI?
 
