@@ -1,5 +1,9 @@
 {
   "name": "React Component Workflow",
   "description": "React Component CI workflow template.",
-  "iconName": "react-component-ci-icon"
+  "iconName": "react-component-ci-icon",
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
 }
