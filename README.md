@@ -1,6 +1,8 @@
-# Github Actions
+# GitHub Actions
 
-🤖 React Component Github Actions CI workflow template.
+🤖 React Component GitHub Actions CI workflow template.
+
+ref: [GitHub docs](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/sharing-workflows-with-your-organization)
 
 ## 💬 How to use?
 
