@@ -1,0 +1,13 @@
+{
+  "name": "Issue Close Require",
+  "description": "Issue Close Require.",
+  "iconName": "actions-cool",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.md$"
+  ]
+}

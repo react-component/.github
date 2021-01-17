@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: help wanted
         if: github.event.label.name == 'help wanted' || github.event.label.name == 'PR welcome'
-        uses: actions-cool/issues-helper@v1.10
+        uses: actions-cool/issues-helper@v1.11
         with:
           actions: 'create-comment'
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -20,7 +20,7 @@ jobs:
 
       - name: need reproduce
         if: github.event.label.name == 'need reproduce'
-        uses: actions-cool/issues-helper@v1.10
+        uses: actions-cool/issues-helper@v1.11
         with:
           actions: 'create-comment'
           issue-number: ${{ github.event.issue.number }}
