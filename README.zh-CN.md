@@ -4,7 +4,7 @@
   <p>🧰 rc-component 仓库共享的 GitHub 社区文件与工作流模板。</p>
 </div>
 
-<p align="center">[English](./README.md) | 简体中文</p>
+<p align="center"><a href="./README.md">English</a> | 简体中文</p>
 
 React Component 组织共享的 GitHub Actions 工作流模板。
 

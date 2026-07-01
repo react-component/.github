@@ -4,7 +4,7 @@
   <p>🧰 Shared GitHub community files and workflow templates for rc-component packages.</p>
 </div>
 
-<p align="center">English | [简体中文](./README.zh-CN.md)</p>
+<p align="center">English | <a href="./README.zh-CN.md">简体中文</a></p>
 
 Shared GitHub community files and workflow templates for the React Component organization.
 

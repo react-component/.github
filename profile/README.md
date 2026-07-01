@@ -10,7 +10,7 @@ React Component provides the low-level React primitives that power the Ant Desig
 ## Packages
 
 - Core component packages live under [react-component](https://github.com/react-component).
-- Public packages are published as <code>@rc-component/\*</code> when possible.
+- Public packages are published as <code>@rc-component/*</code> when possible.
 - Shared test workflow lives in [rc-test](https://github.com/react-component/rc-test).
 - Shared release helper lives in [@rc-component/np](https://github.com/react-component/np).
 
