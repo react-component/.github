@@ -18,3 +18,7 @@ React Component provides the low-level React primitives that power the Ant Desig
 
 - [Ant Design](https://ant.design)
 - [React Component docs](https://react-component.github.io)
+
+## License
+
+MIT License. See [LICENSE](../LICENSE) for details.

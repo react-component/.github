@@ -28,3 +28,7 @@ jobs:
 4. Choose the React Component workflow template.
 
 See GitHub's documentation for [sharing workflows with an organization](https://docs.github.com/en/actions/using-workflows/sharing-workflows-secrets-and-runners-with-your-organization).
+
+## License
+
+MIT License. See [LICENSE](./LICENSE) for details.

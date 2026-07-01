@@ -23,3 +23,7 @@ jobs:
     secrets:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 ```
+
+## License
+
+MIT License。详见 [LICENSE](./LICENSE)。
