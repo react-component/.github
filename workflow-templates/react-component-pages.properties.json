@@ -1,0 +1,13 @@
+{
+  "name": "React Component Pages",
+  "description": "Build and deploy documentation to GitHub Pages when a release is published.",
+  "iconName": "react-component-ci-icon",
+  "categories": [
+    "Javascript",
+    "Typescript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    ".*\\.dumirc\\.(js|ts)$"
+  ]
+}
