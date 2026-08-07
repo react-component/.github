@@ -1,29 +1,24 @@
-# Fundamental react components of antd
+# React Component
 
-React components foundation of https://ant.design, developed and maintained by the Ant Design Team.
+React Component provides the low-level React primitives that power the Ant Design ecosystem.
+
+<p>
+  <a href="https://ant.design"><img alt="Ant Design" height="14" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" /></a>
+  <sub>Part of the Ant Design ecosystem.</sub>
+</p>
+
+## Packages
+
+- Core component packages live under [react-component](https://github.com/react-component).
+- Public packages are published as <code>@rc-component/*</code> when possible.
+- Shared test workflow lives in [rc-test](https://github.com/react-component/rc-test).
+- Shared release helper lives in [@rc-component/np](https://github.com/react-component/np).
 
 ## Docs
 
-https://react-component.github.io
+- [Ant Design](https://ant.design)
+- [React Component docs](https://react-component.github.io)
 
-### 中文
+## License
 
-- [如何开发一个 react 组件](https://github.com/react-component/react-component.github.io/blob/master/docs/zh-cn/how-to-write-a-react-component.md)
-- [react 组件代码规范](https://github.com/react-component/react-component.github.io/blob/master/docs/zh-cn/component-code-style.md)
-- [react 组件设计原则](https://github.com/react-component/react-component.github.io/blob/master/docs/zh-cn/component-design.md)
-- [kissy 与 react 组件编写异同](https://github.com/react-component/react-component.github.io/blob/master/docs/zh-cn/kissy-react-compare.md)
-
-## third-party recommended react components
-
-- [search index](http://react-components.com)
-- [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap/)
-- [react-forms](https://github.com/prometheusresearch/react-forms)
-- [react-router](https://github.com/rackt/react-router)
-- [flux-router-component](https://github.com/yahoo/flux-router-component)
-
-## tutorials
-
-- [learning-react](https://github.com/yiminghe/learning-react)
-- [awesome-react](https://github.com/enaqx/awesome-react)
-- [react-learning](https://github.com/rpflorence/react-training)
-- [react-starter-kit](https://github.com/kriasoft/react-starter-kit)
+MIT License. See [LICENSE](../LICENSE) for details.

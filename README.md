@@ -1,31 +1,34 @@
-# GitHub Actions
+<div align="center">
+  <h1>React Component GitHub Defaults</h1>
+  <p><sub><a href="https://ant.design"><img alt="Ant Design" height="14" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg" style="vertical-align: -0.125em;" /></a> Part of the Ant Design ecosystem.</sub></p>
+  <p>🧰 Shared GitHub community files and workflow templates for rc-component packages.</p>
+</div>
 
-🤖 React Component GitHub Actions CI workflow template.
+<p align="center">English | <a href="./README.zh-CN.md">简体中文</a></p>
 
-ref: [GitHub docs](https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/sharing-workflows-with-your-organization)
+Shared GitHub community files and workflow templates for the React Component organization.
 
-## 💬 How to use?
+## Recommended CI
 
-1、On GitHub, navigate to the main page of the repository.
+New rc-component repositories should use the reusable workflow from `react-component/rc-test`:
 
-2、Under your repository name, click Actions.
+```yml
+jobs:
+  test:
+    uses: react-component/rc-test/.github/workflows/test-utoo.yml@main
+    secrets:
+      CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+```
 
-![](./assets/image/actions-tab.png)
+## Workflow Template
 
-3、If your repository already has existing workflows: In the upper-left corner, click New workflow.
+1. Open the target repository on GitHub.
+2. Go to the Actions tab.
+3. Click New workflow when the repository already has workflows.
+4. Choose the React Component workflow template.
 
-![](./assets/image/actions-new-workflow.png)
+See GitHub's documentation for [sharing workflows with an organization](https://docs.github.com/en/actions/using-workflows/sharing-workflows-secrets-and-runners-with-your-organization).
 
-4、In section titled "Workflows created by React Component". Click **Set up this workflow**.
+## License
 
-![](./assets/image/react-component-ci.png)
-
-## 💬 How to migrate from travis CI?
-
-1、Remove `.travis.yml` from the root dir of project.
-
-2、Update build ci badge url in `README.md`.
-
-ref: [Update Badge](https://github.com/react-component/trigger/pull/213)
-
-3、Following [How to use](#how-to-use) to set up github actions.
+MIT License. See [LICENSE](./LICENSE) for details.
